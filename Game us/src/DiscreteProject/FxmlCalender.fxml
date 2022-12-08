@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="431.0" prefWidth="572.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DiscreteProject.CalenderControl">
+   <children>
+      <AnchorPane prefHeight="431.0" prefWidth="299.0" style="-fx-background-color: #5fe1e8;">
+         <children>
+            <Label alignment="CENTER" layoutX="52.0" layoutY="31.0" prefHeight="117.0" prefWidth="220.0" text="    Welcome&#10;in my Calender" textFill="#67678f">
+               <font>
+                  <Font name="Bell MT Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="164.0" prefHeight="30.0" prefWidth="237.0" text="Name : Sadeg Ashour" textFill="#67678f">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="201.0" prefHeight="30.0" prefWidth="260.0" text="Student_Number : 120191381" textFill="#67678f">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="22.0" layoutY="282.0" prefHeight="30.0" prefWidth="260.0" text="Eng : Braa Al Astal" textFill="#67678f">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="241.0" prefHeight="30.0" prefWidth="260.0" text="Dr : Mohammed Al Hanjoury" textFill="#67678f">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="year" layoutX="377.0" layoutY="149.0" style="-fx-border-color: #5fe1e8; -fx-border-width: 0 0 2 0; -fx-background-color: parent;" />
+      <Label layoutX="315.0" layoutY="149.0" prefHeight="27.0" prefWidth="65.0" text="Year" textFill="#8bc9c1">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="347.0" layoutY="39.0" prefHeight="71.0" prefWidth="149.0" text="    Enter&#10;Your inputs" textFill="#8bc9c1">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="month" layoutX="378.0" layoutY="200.0" style="-fx-border-color: #5fe1e8; -fx-border-width: 0 0 2 0; -fx-background-color: parent;" />
+      <Label layoutX="314.0" layoutY="201.0" prefHeight="27.0" prefWidth="65.0" text="Month" textFill="#8bc9c1">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="393.0" layoutY="270.0" mnemonicParsing="false" onAction="#show" prefHeight="33.0" prefWidth="103.0" style="-fx-background-color: psrent;" text="show " textFill="#8bc9c1">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="22.0" />
+         </font>
+      </Button>
+      <Label fx:id="invalid" layoutX="337.0" layoutY="337.0" prefHeight="49.0" prefWidth="202.0" textFill="#902e2e">
+         <font>
+            <Font name="Arabic Typesetting" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

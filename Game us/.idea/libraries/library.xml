@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="library">
+    <CLASSES>
+      <root url="file://E:/University/year 3/فصل اول/رياضيات متقطعة/labs/lab2/library" />
+      <root url="file://$USER_HOME$/Downloads/Compressed/javamail-1.4.5" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$USER_HOME$/Downloads/Compressed/javamail-1.4.5/docs/javadocs" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$USER_HOME$/Downloads/Compressed/javamail-1.4.5/demo" />
+      <root url="file://$USER_HOME$/Downloads/Compressed/javamail-1.4.5/demo/client" />
+      <root url="file://$USER_HOME$/Downloads/Compressed/javamail-1.4.5/demo/logging" />
+      <root url="file://$USER_HOME$/Downloads/Compressed/javamail-1.4.5/demo/outlook" />
+      <root url="file://$USER_HOME$/Downloads/Compressed/javamail-1.4.5/demo/servlet" />
+      <root url="file://$USER_HOME$/Downloads/Compressed/javamail-1.4.5/demo/webapp/src/classes" />
+      <root url="file://$USER_HOME$/Downloads/Compressed/javamail-1.4.5/demo/webapp/src/taglib" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Downloads/Compressed/javamail-1.4.5" recursive="false" />
+    <jarDirectory url="file://E:/University/year 3/فصل اول/رياضيات متقطعة/labs/lab2/library" recursive="false" />
+  </library>
+</component>
